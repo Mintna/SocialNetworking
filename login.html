@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เข้าสู่ระบบ</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>เข้าสู่ระบบ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="login.html">เข้าสู่ระบบ</a></li>
+                <li><a href="profile.html">โปรไฟล์</a></li>
+                <li><a href="friends.html">เพื่อน</a></li>
+                <li><a href="posts.html">โพสต์</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>กรุณาเข้าสู่ระบบ</h2>
+        <form id="loginForm">
+            <label for="username">ชื่อผู้ใช้:</label>
+            <input type="text" id="username" required>
+            
+            <label for="password">รหัสผ่าน:</label>
+            <input type="password" id="password" required>
+
+            <button type="submit">เข้าสู่ระบบ</button>
+        </form>
+        <p>ยังไม่มีบัญชี? <a href="#">สมัครสมาชิก</a></p>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

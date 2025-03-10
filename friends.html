@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เพื่อนของฉัน</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>เพื่อนของฉัน</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="profile.html">โปรไฟล์</a></li>
+                <li><a href="friends.html">เพื่อน</a></li>
+                <li><a href="posts.html">โพสต์</a></li>
+                <li><a href="#" id="logout">ออกจากระบบ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="friend-list">
+            <h2>รายชื่อเพื่อน</h2>
+            <ul id="friends-container">
+                <!-- รายชื่อเพื่อนจะถูกเพิ่มที่นี่ -->
+            </ul>
+        </section>
+        
+        <section id="add-friend">
+            <h2>เพิ่มเพื่อน</h2>
+            <input type="text" id="friend-name" placeholder="กรอกชื่อเพื่อน">
+            <button id="add-friend-button">เพิ่มเพื่อน</button>
+        </section>
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

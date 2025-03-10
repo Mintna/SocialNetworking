@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โพสต์ของฉัน</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>โพสต์ของฉัน</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="profile.html">โปรไฟล์</a></li>
+                <li><a href="friends.html">เพื่อน</a></li>
+                <li><a href="posts.html">โพสต์</a></li>
+                <li><a href="#" id="logout">ออกจากระบบ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="create-post">
+            <h2>สร้างโพสต์ใหม่</h2>
+            <textarea id="post-content" placeholder="เขียนสิ่งที่คุณคิด..."></textarea>
+            <button id="submit-post">โพสต์</button>
+        </section>
+        
+        <section id="post-feed">
+            <h2>โพสต์ล่าสุด</h2>
+            <div id="post-container">
+                <!-- โพสต์จะถูกเพิ่มที่นี่ -->
+            </div>
+        </section>
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรไฟล์ผู้ใช้</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>โปรไฟล์ของฉัน</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="profile.html">โปรไฟล์</a></li>
+                <li><a href="friends.html">เพื่อน</a></li>
+                <li><a href="posts.html">โพสต์</a></li>
+                <li><a href="#" id="logout">ออกจากระบบ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="user-info">
+            <h2>ข้อมูลส่วนตัว</h2>
+            <p><strong>ชื่อผู้ใช้:</strong> <span id="username-display">admin</span></p>
+            <button id="edit-profile">แก้ไขโปรไฟล์</button>
+        </section>
+        
+        <section id="user-posts">
+            <h2>โพสต์ของฉัน</h2>
+            <textarea id="new-post" placeholder="เขียนโพสต์..."></textarea>
+            <button id="post-button">โพสต์</button>
+            <div id="posts-container"></div>
+        </section>
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
